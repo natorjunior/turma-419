@@ -15,3 +15,19 @@ for i in range (0,4):
     notas.append (nota)
 
 print("Sua nota",nota)
+
+lista1 = []
+lista2 = []
+
+for i in range(0,3):
+    primeiro = int(input(f"Escolha 3 Números: {i+1} ª" ))
+    lista1.append (primeiro)
+
+for i in range(0,3):
+    segundo =  int(input(f"Escolha mais 3 Números: {i+1} ª"))
+  
+    lista2.append (segundo)
+
+soma = lista1[0] + lista2[-1]
+
+print("A soma é: ", soma)
