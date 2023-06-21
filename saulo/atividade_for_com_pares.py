@@ -1,3 +1,6 @@
-for i in range (1,200+1):
+lista = []
+for i in range (0,200,2):
     if i % 2 == 0:
-        print(f"Este número {i} é par")
+        lista.append(i)
+
+print(lista)
