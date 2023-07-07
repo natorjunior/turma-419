@@ -31,12 +31,16 @@ def fizz_buzz (valor):
         
         print('FIZZ_BUZZ')
 
-    elif valor % 5:
+    elif result == 0:
 
         print('fizz')
 
-    else:
+    elif resul2 == 0:
 
         print('buzz')
+
+    else:
+
+        print('nenhum dos dois')
 
 tc = fizz_buzz(a)
